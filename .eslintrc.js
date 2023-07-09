@@ -11,11 +11,10 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-    }
-    {
-        "extends": [
+    },
+    "extends": 
+       [
           "some-other-config-you-use",
           "prettier"
         ]
-      }
 }
